@@ -4,10 +4,10 @@ stacks:
     template-url: templates/aws-s3-template.yml
     parameters:
       bucketName: relocation-swagger-ui
-      bucketIndexDocument: index.html
+      bucketIndexDocument: internal-api-documentation.html
   relocation-partner-swagger-ui:
     template-url: templates/aws-s3-template.yml
     parameters:
       bucketName: relocation-partner-swagger-ui
-      bucketIndexDocument: apidocumentation.html
+      bucketIndexDocument: corporate-partner-documentation.html
       

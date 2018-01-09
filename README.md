@@ -268,6 +268,10 @@ cf sync cfn/cfn-config.yml --confirm
 
 * use aws cli to copy ```dist/```folder to the s3 bucket (make sure to switch to the correct account first using ```afp```)
 * following script is for two buckets: *relocation-swagger-ui* and *relocation-partner-swagger-ui*
+* both buckets provide the same sources
+* the difference between the buckets is the index document
+    * relocation-swagger-ui: **dist/internal-api-documentation.html**
+    * relocation-partner-swagger-ui: **corporate-partner-documentation.html**
 
 ```
 aws s3 sync dist/ s3://relocation-swagger-ui/ --delete
