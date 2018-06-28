@@ -11,7 +11,7 @@ urls:
     name: Relocation Costs API
   - url: https://api.relocation.immobilienscout24.de/authentication/swagger.json
     name: Relocation Authentication API
-  - url: "https://api.relocation.immobilienscout24.de/authentication/swagger.json",
+  - url: https://api.relocation.immobilienscout24.de/extratour/swagger.json,
     name: "ExtraTour API"
 dom_id: "#swagger-ui"
 validatorUrl: "https://online.swagger.io/validator"
